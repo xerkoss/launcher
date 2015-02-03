@@ -1,0 +1,20 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="WpfApplication1.MainWindow"
+        Title="T y r o s  -  W a r l o r d s   O f   D r a e n o r                                      Terragolfa Dev Test Launcher" Height="340" Width="600" WindowStyle="ToolWindow" ResizeMode="NoResize" Background="{DynamicResource FondoLauncher}">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush TileMode="Tile"/>
+        </Grid.Background>
+        <Button x:Name="ButtonPlay" Content="" HorizontalAlignment="Left" Margin="476,279,0,0" VerticalAlignment="Top" Width="80" Height="30" Click="ButtonPlay_Click" BorderThickness="0" BorderBrush="Black" Background="{DynamicResource BotonJugar}"/>
+        <ProgressBar x:Name="progressbar1" HorizontalAlignment="Left" Height="17" Margin="142,289,0,0" VerticalAlignment="Top" Width="165" Background="Black" Foreground="#FFB01616" OpacityMask="#FF831313"/>
+        <CheckBox x:Name="CheckBox64b" Content="64 bits" HorizontalAlignment="Left" Margin="446,95,0,0" VerticalAlignment="Top" Checked="CheckBox64b_Checked" FontSize="14" FontWeight="Bold" Height="17" Width="63"/>
+        <CheckBox x:Name="CheckBox32b" Content="32 bits" HorizontalAlignment="Left" Margin="446,75,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.042,0.308" Checked="CheckBox32b_Checked" IsChecked="True" FontSize="14" FontWeight="Bold" Height="18" Width="63"/>
+        <Label x:Name="LabelSerVer" Content="Label" HorizontalAlignment="Left" Margin="509,6,0,0" VerticalAlignment="Top" FontWeight="Bold" Foreground="Green"/>
+        <Label x:Name="LabelCliVer" Content="Label" HorizontalAlignment="Left" Margin="510,28,0,0" VerticalAlignment="Top" Foreground="Red" FontWeight="Bold"/>
+        <Label Content="Servidor" HorizontalAlignment="Left" Margin="457,7,0,0" VerticalAlignment="Top"/>
+        <Label Content="Cliente" HorizontalAlignment="Left" Margin="465,28,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

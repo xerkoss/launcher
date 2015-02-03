@@ -1,0 +1,12 @@
+﻿<Application x:Class="WpfApplication1.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        
+        <ImageBrush x:Key="BotonJugar" ImageSource="jugar_on.jpg" TileMode="Tile"/>
+        <ImageBrush x:Key="FondoLauncher" ImageSource="world-of-warcraft-warlords-of-draenor-530x298.jpg"/>
+        <ImageBrush x:Key="BotonInstalar" ImageSource= "Sintitulo-1.png"/>
+        
+    </Application.Resources>
+</Application>
